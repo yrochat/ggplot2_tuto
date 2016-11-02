@@ -489,8 +489,6 @@ ggplot(diam, aes(x = carat, y = price, color = clarity, size = depth)) +
   scale_size("DEPTH", range = c(1,3))
 ```
 
-----
-
 ## Bilan intermédiaire
 
 Nous avons vu comment :
@@ -599,7 +597,7 @@ scale_alpha scale_alpha_continuous scale_alpha_discrete scale_alpha_identity sca
 
 ----
 
-Par exemple, si l'on travaille sur la couleur, on pourra faire varier la palette des couleurs en modifiant le nom de l'échelle. Faites le test en écrivant scale_color_ dans la console puis en pressant sur la touche tab pour voir les suggestions…
+Par exemple, si l'on travaille sur la couleur, on pourra faire varier la palette des couleurs en modifiant le nom de l'échelle. Faites le test en écrivant `scale_color_` dans la console puis en pressant sur la touche tab pour voir les suggestions…
 
 ----
 
@@ -812,7 +810,7 @@ ggplot(diamonds, aes(carat, price)) +
 
 ## Les thèmes
 
-C'est `ggtitle` pour choisir un titre.
+La fonction `ggtitle` est utilisée pour choisir un titre.
 
 ----
 
@@ -898,13 +896,19 @@ Source :
 
 ----
 
-Le format *tidy*, ou *long form*, est fortement recommandé dans `ggplot2`.
+Marie-Louise Timcke a proposé sur `journocode.com` [une très bonne ressource à ce sujet](http://journocode.com/2016/03/05/r-tidy-data/).
 
-La slide suivante est empruntée à [Frederik Aust](https://twitter.com/FrederikAust/status/789101346595151872).
+En particulier, elle présente l'exemple suivant, extrait d'explications d'Hadley Wickham.
 
 ----
 
-![](reshape.png)
+![](tidy_wickham.png)
+
+----
+
+Le format *tidy*, ou *long form*, est fortement recommandé dans `ggplot2`.
+
+En un schéma, [Frederik Aust](https://twitter.com/FrederikAust/status/789101346595151872) a très bien résumé les opérations nécessaires pour la mise en forme des données.
 
 ## Bonus !
 
@@ -945,15 +949,19 @@ p <- ggplot(gapminder, aes(gdpPercap, lifeExp, size = pop, color = continent, fr
 
 ----
 
+(Si ça ne fonctionne, lancer ce code dans R/RStudio.)
+
 ```{r}
 gg_animate(p)
 ```
 
 ## Interactivité
 
-Voir exemple [ici](https://gist.github.com/jcheng5/3239667).
+Un [exemple](http://shiny.rstudio.com/gallery/movie-explorer.html) permettant la consultation de données de films tirées de *Rotten Tomatoes*.
 
+Un autre [exemple](https://gist.github.com/jcheng5/3239667), cette fois sur la base de données des diamants utilisée dans ce notebook/ces slides.
 
+Le mot-clé à retenir lorsqu'on veut rendre un graphique de R interactif : `shiny`. Mais ce sera pour un autre workshop…
 
 
 
