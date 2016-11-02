@@ -6,4 +6,4 @@ Il s'agit du même contenu, disponible dans deux formes différentes. Pour une u
 
 Les slides sont disponibles [ici](https://yrochat.github.io/ggplot2_tuto).
 
-Pour terminer, le code source (au format R markdown) est disponible [là](https://github.com/yrochat/ggplot2_tuto/blob/gh-pages/ggplot2.Rmd).
+Pour terminer, le code source (au format R markdown) est accessible [là](https://github.com/yrochat/ggplot2_tuto/blob/gh-pages/ggplot2.Rmd).
