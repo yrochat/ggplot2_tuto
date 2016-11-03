@@ -14,4 +14,4 @@ Pour en savoir plus …
 
 - Sur le Master en informatique pour les sciences humaines de l'Université de Lausanne, [c'est par ici](https://applicationspub.unil.ch/interpub/noauth/php/Ud/structureCoursPdf.php?v_ueid=174&v_etapeid1=28945&v_semposselected=-1&v_langue=fr&v_isinterne=1&noPages=1).
 - Sur le format notebook en R, [c'est par ici](http://rmarkdown.rstudio.com/r_notebooks.html).
-- Sur la manière d'héberger un site sur GitHub : il suffit d'héberger les fichiers `html` dans une branche nommées `gh-pages`.
+- Sur la manière d'héberger un site sur GitHub : il suffit d'héberger les fichiers `html` dans une branche nommée `gh-pages`.
